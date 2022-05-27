@@ -70,7 +70,7 @@ h2 {
 }
 
 .header--search form {
-    display: flex;
+    display: flex;    
 }
 
 .header--search input {
@@ -243,4 +243,61 @@ footer a, p {
     text-decoration: none;
     color: #fff;
     text-align: center;
+}
+
+
+@media (min-width: 769px) and (max-width: 1140px) { /* Laptops tela pequena */
+    .container {
+        padding: 0 60px 0 20px;
+    }
+}
+
+@media (min-width: 426px) and(max-width: 768px) { /* Tablet */
+    .container {
+        padding: 0 60px 0 20px;
+    }
+    .area1 {
+        grid-template-columns: 1fr;
+    }
+    .area2 {
+        grid-template-columns: 1fr;
+    }
+    .area1--img2 {
+        display: none;
+    }
+    .area2--img2 {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 0 60px 0 20px;
+    }
+    .area1 {
+        grid-template-columns: 1fr;
+    }
+    .area2 {
+        grid-template-columns: 1fr;
+    }
+    .area3 {
+        grid-template-columns: 1fr;
+    }
+    .area1--img2 {
+        display: none;
+    }
+    .area2--img2 {
+        display: none;
+    }
+    .area3--img1 {
+        display: none;
+    }
+    .header--search form {      
+        margin-left: 20px;    
+    }
+    .header--menu {
+        margin-left: 10px;
+        cursor: pointer;
+    }
 }
