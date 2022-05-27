@@ -3,6 +3,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    overflow: hidden;
 }
 
 .container {
@@ -306,10 +307,7 @@ footer a, p {
         margin-left: 10px;
         cursor: pointer;
     }
-    .area1--content, .area2--content, .area3--content {
+    .area1--content, .area2--content, .area3--content,.area4--content {
         padding: 40px;
-    }
-    .area4--content {
-        padding: 60px;
     }
 }
