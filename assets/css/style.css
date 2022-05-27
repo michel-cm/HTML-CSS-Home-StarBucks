@@ -290,14 +290,26 @@ footer a, p {
     .area2--img2 {
         display: none;
     }
+       
     .area3--img1 {
-        display: none;
+        background-image: url(../images/f5.jpg);
+        background-position: center;
+        background-size: cover; 
+        height: 500px;
+        max-height: 500px;   
     }
+
     .header--search form {      
         margin-left: 20px;    
     }
     .header--menu {
         margin-left: 10px;
         cursor: pointer;
+    }
+    .area1--content, .area2--content, .area3--content {
+        padding: 40px;
+    }
+    .area4--content {
+        padding: 60px;
     }
 }
