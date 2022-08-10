@@ -10,4 +10,3 @@ Mobile:
 
 Projeto em live: https://home-star-bucks.vercel.app/
 
-Baseado nos conteúdos de FlexBox e Grid do professor Bonieky Lacerda - B7Web.
